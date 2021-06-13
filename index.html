@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class= "col-xs-12"><h4 id="header">Image Identifictation <img src="logo.gif"></h4></div>
+
+      <div class="col-sm-6 col-xs-12 style">
+        <label style="background-color: azure;">Webcam</label>
+        <div id= "camera"></div>
+        <button onclick = "get_img()">Capture Image</button>
+      </div>
+
+      <div class="col-sm-6 col-xs-12 style">
+        <label style="background-color: azure;">Snapshot</label>
+        <div id= "camera2"></div>
+        <button onclick = "snap_img()">Identify Image</button>
+      </div>
+
+      
+    </center>
+    <div class="blub"><h4 id ="bub"><img  src="blub.gif"><span id="result"></span></h4></div>
+    <div class="creator">
+      <h4>Developed By - Harshita </h4>
+    </div>
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
